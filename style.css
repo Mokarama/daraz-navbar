@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding:0;
+} 
+
+.nav{
+    width: 100%;
+    max-width: 1000;
+    border: 1px solid ;
+    margin:0 auto;
+    background-color:#FF6600;
+}
+nav>ul {
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  nav li{
+    list-style: none;
+    margin-right: 70px;
+    align-items:flex-end;
+  }
+  
+  li a{
+      font-size: 20px;
+      text-decoration: none;
+      color:white;
+  }
+
+
+   .logo-area{
+      display: flex;
+      align-items: center;
+  }
+  
+  .data{
+      display: flex;
+      align-items: center;
+  }
+  
+  .daraz{
+      height: 150px;
+      width: 150px;
+      color: white;
+      margin-left:200px; 
+      
+  }
+  
+  h2{
+      font-size: 62px;
+      color: white;
+      padding-right:35px;
+  }
+
+  
+  .cart-icon{
+      height: 30px;
+      width: 30px;
+      align-items: center;
+      justify-content: center;
+      margin-left:40px;
+      margin-top: 40px;  
+  } 
+  
+  .srch-box{
+      height: 55px;
+      width: 800px;
+      border: none;
+      padding-right:25px;   
+  }
+  .icon{
+      height: 55px;
+      width: 40px;
+     border: none;
+     position: relative;
+     left: -30px;
+     color:#f3863d;
+  }
+  
+  .info{
+      border: none;
+  }
+  
+  
